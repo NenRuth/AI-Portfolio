@@ -467,24 +467,28 @@
 
 
 
-# BMI Calculator
+# # BMI Calculator
 
-# 1. Get user input
-weight = float(input("Enter your weight in kilograms: "))
-height = float(input("Enter your height in meters: "))
+# # 1. Get user input
+# weight = float(input("Enter your weight in kilograms: "))
+# height = float(input("Enter your height in meters: "))
 
-# 2. Calculate BMI
-bmi = weight / (height ** 2)
+# # 2. Calculate BMI
+# bmi = weight / (height ** 2)
 
-# 3. Display result
-print(f"\nYour BMI is: {bmi:.2f}")
+# # 3. Display result
+# print(f"\nYour BMI is: {bmi:.2f}")
 
-# 4. Determine category
-if bmi < 18.5:
-    print("You are underweight.")
-elif 18.5 <= bmi < 25:
-    print("You have a normal weight.")
-elif 25 <= bmi < 30:
-    print("You are overweight.")
-else:
-    print("You are obese.")
+# # 4. Determine category
+# if bmi < 18.5:
+#     print("You are underweight.")
+# elif 18.5 <= bmi < 25:
+#     print("You have a normal weight.")
+# elif 25 <= bmi < 30:
+#     print("You are overweight.")
+# else:
+#     print("You are obese.")
+
+
+
+
