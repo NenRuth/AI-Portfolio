@@ -1,13 +1,13 @@
 #Looping allows you to take the same action, or set of actions, with every item in a list.
 #looping is important because it’s one of the most common ways a computer automates repetitive tasks.
-chefs = ['Arinze', 'Bemzy', 'Angelo', 'Rolly', 'Abass', 'Bond', 'Osondu', 'Michael', 'Mark']
+#chefs = ['Arinze', 'Bemzy', 'Angelo', 'Rolly', 'Abass', 'Bond', 'Osondu', 'Michael', 'Mark']
 #for chef in chefs:
 	#print(chef)
 
-for chef in chefs:
-	print(chef.title() + ', that was great!')
-	print("I can't wait to experience your next dish, " + chef.title() + ".")
-	print("Once again, thank you great Chef, " + chef.title() + "\n")
+#for chef in chefs:
+	#print(chef.title() + ', that was great!')
+	#print("I can't wait to experience your next dish, " + chef.title() + ".")
+	#print("Once again, thank you great Chef, " + chef.title() + "\n")
 
 #DIY
 #Pizzas: Think of at least three kinds of your favorite pizza. Store these
@@ -34,8 +34,8 @@ for chef in chefs:
 # print out the name of each animal.
 
 #cats = ["tiger", "leopard", "lion", "chetaah"]
-# for cat in cats:
-# 	print(cat)
+#for cat in cats:
+	#print(cat)
 
 # • Modify your program to print a statement about each animal, such as A dog would make a great pet.
 # for cat in cats:

@@ -2,13 +2,13 @@
 # = assigns a value to a variable
 # == asks/checks if the value of something is true/false 
 
-# cars = ['toyota', 'honda', 'lexus', 'mb', 'bmw', 'hyundai']
-# for car in cars:
-# 	if car == 'bmw':  #whenever car is bmw, print it in uppercase
-# 		print(car.upper())
-# 	if car == 'mb':   #whenever car is mb, print it in prrercase
-# 		print(car.upper())
-# 	else:
+#cars = ['toyota', 'honda', 'lexus', 'mb', 'bmw', 'hyundai']
+#for car in cars:
+	#if car == 'bmw':  #whenever car is bmw, print it in uppercase
+		#print(car.upper())
+	#if car == 'mb':   #whenever car is mb, print it in prrercase
+		#print(car.upper())
+#else:
 # 		print(car.title())	
 
 # 	if car != 'telsa':
@@ -33,8 +33,8 @@
 # age_0 >= 21 and age_1 >= 21
 # True
 
-# The keyword or allows you to check multiple conditions as well, but it
-# passes when either or both of the individual tests pass. An or expression
+# The keyword 'or' allows you to check multiple conditions as well, but it
+# passes when either or both of the individual tests pass. An 'or' expression
 # fails only when both individual tests fail.
 
 # age_0 = 22
@@ -253,14 +253,14 @@
 # for each number. Your output should read "1st 2nd 3rd 4th 5th 6th
 # 7th 8th 9th", and each result should be on a separate line.	
 
-numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+# numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 
-for number in numbers:
-	if number == 1:
-		print(number "+ st")
-	if number == 2:
-		print(number "+ nd")
-	if number == 3:
-		print(number "+ rd")
+# for number in numbers:
+# 	if number == 1:
+# 		print(number + " st")
+# 	if number == 2:
+# 		print(number + "nd")
+# 	if number == 3:
+# 		print(number + "rd")
 # else:
-# 	print(number + 'th')		
+# 	print(number + "th")		

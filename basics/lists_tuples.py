@@ -1,7 +1,7 @@
 #RANGE
 
-# for chefs in range(1,5):
-# 	print(chefs)
+#for chefs in range(1,5):
+	#print(chefs)
 
 #Converting range to list using list()
 # chefs = list(range(1,5))
@@ -98,10 +98,6 @@
 # print("\nMy son's fav food are-:")
 # print(friend_foods)
 
-
-
-
-
 #Tuples: allow you to create a list of items that cannot change. Python refers to values that cannot
 #change as immutable, and an immutable list is called a tuple. use parentheses instead of square
 #brackets.
@@ -133,8 +129,8 @@
 # for buffet in buffets:
 # 	print(buffet)
 
-# buffets = ('okro', 'oha', 'nsala', 'bitterleaf')
-# print('\nRevised meun include:')
-# for buffet in buffets:
-# 	print(buffet)
+#buffets = ('okro', 'oha', 'nsala', 'bitterleaf')
+#print('\nRevised meun include:')
+#for buffet in buffets:
+	#print(buffet)
 
