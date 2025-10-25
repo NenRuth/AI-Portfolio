@@ -210,37 +210,37 @@
 
 
 #To visualize
-import csv
-import matplotlib.pyplot as plt
+# import csv
+# import matplotlib.pyplot as plt
 
-filename = "sitka_weather_07-2014.csv"
-target_date = '2014-7-2'  # You can change this date to any day in your file
+# filename = "sitka_weather_07-2014.csv"
+# target_date = '2014-7-2'  # You can change this date to any specific day in your file.
 
-with open(filename, 'r') as file:
-    reader = csv.DictReader(file)
-    for row in reader:
-        # Clean up header and value spaces
-        clean_row = {key.strip(): value.strip() for key, value in row.items()}
+# with open(filename, 'r') as file:
+#     reader = csv.DictReader(file)
+#     for row in reader:
+#         # Clean up header and value spaces
+#         clean_row = {key.strip(): value.strip() for key, value in row.items()}
 
-        if clean_row['AKDT'] == target_date:
-            # Extract relevant data
-            max_temp = float(clean_row['Max TemperatureF'])
-            mean_temp = float(clean_row['Mean TemperatureF'])
-            min_temp = float(clean_row['Min TemperatureF'])
+#         if clean_row['AKDT'] == target_date:
+#             # Extract relevant data
+#             max_temp = float(clean_row['Max TemperatureF'])
+#             mean_temp = float(clean_row['Mean TemperatureF'])
+#             min_temp = float(clean_row['Min TemperatureF'])
 
-            # Plot the data
-            temps = [max_temp, mean_temp, min_temp]
-            labels = ['Max Temp (°F)', 'Mean Temp (°F)', 'Min Temp (°F)']
+#             # Plot the data
+#             temps = [max_temp, mean_temp, min_temp]
+#             labels = ['Max Temp (°F)', 'Mean Temp (°F)', 'Min Temp (°F)']
 
-            plt.bar(labels, temps, color=['red', 'orange', 'blue'])
-            plt.title(f"Temperatures for {target_date}")
-            plt.ylabel("Temperature (°F)")
-            plt.xlabel("Temperature Type")
-            plt.grid(axis='y', linestyle='--', alpha=0.7)
-            plt.show()
-            break
-    else:
-        print(f"No data found for {target_date}.")
+#             plt.bar(labels, temps, color=['red', 'orange', 'blue'])
+#             plt.title(f"Temperatures for {target_date}")
+#             plt.ylabel("Temperature (°F)")
+#             plt.xlabel("Temperature Type")
+#             plt.grid(axis='y', linestyle='--', alpha=0.7)
+#             plt.show()
+#             break
+#     else:
+#         print(f"No data found for {target_date}.")
 
 
 
@@ -295,3 +295,53 @@ with open(filename, 'r') as file:
 # # Format plot.
 # title = "Daily high and low temperatures - 2014\nDeath Valley, CA"
 # plt.title(title, fontsize=20)
+
+
+#DIY
+# Choose any location you’re interested in, and make a visualization that plots its rainfall. 
+# Start by focusing on one month’s data, and then once your code is working, run it for a full year’s 
+# data.
+
+# import csv
+# from datetime import datetime
+# import matplotlib.pyplot as plt
+# filename = 'weather.csv'
+# #target_date = '2016-01-02'  # change to any day you want
+
+# with open(filename) as f:
+#     reader = csv.reader(f)
+#     header_row = next(reader)
+
+#     dates, highs, lows, avg = [], [], [], []
+#     for row in reader:
+#         try:
+#             current_date = datetime.strptime(row[0], "%Y-%m-%d")
+#             high = int(row[9])
+#             low = int(row[10])
+#             avg = int(row[8])
+#         except ValueError:
+#             print(current_date, 'missing data')
+#         else:
+#             dates.append(current_date)
+#             highs.append(high)
+#             lows.append(low)
+
+# # Plot data.
+# fig = plt.figure(dpi=128, figsize=(10, 6))
+# plt.plot(dates, highs, c='red', alpha=0.5)
+# plt.plot(dates, lows, c='blue', alpha=0.5)
+# plt.fill_between(dates, highs, lows, facecolor='blue', alpha=0.1)
+
+# # Format plot.
+# title = "Weather data over a period"
+# plt.title(title, fontsize=12)
+# plt.xlabel('', fontsize=8)
+# fig.autofmt_xdate()
+# plt.ylabel("Temperature (F)", fontsize=8)
+# plt.tick_params(axis='both', which='major', labelsize=8)
+
+# plt.show()
+
+
+
+# 
