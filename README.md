@@ -1,11 +1,13 @@
-# AI-Portfolio
-Collection of AI projects and experiments
-# AI-Portfolio
+# Month 1
+In month 1, I focused on:
+* dictionaries, functions, variables, list, tuples and strings
+* data visualization using Matplotlib (line bar, histogram, scatter plots). 
+* OOP (classes and inheritance).
+* Introduction to APIs.
+* Files and Exceptions. 
 
-This repository contains my Python practice files as I learn the foundations of **programming** and **Artificial Intelligence**.  
-It showcases my journey from Python basics to more advanced coding concepts, structured for clarity and growth.
 
----
+This repository showcases my activities on python... 
 
 ## Repository Structure
 - **basics/** → Python fundamentals (variables, strings, lists, tuples)  
