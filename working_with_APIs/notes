@@ -1,0 +1,51 @@
+.items() 
+\n new line
+\t a tab on the next line
+.title() to print the 1st word in cap letter
+.lower() to print in lower letters
+.upper() to print in cap letters
+keys() used to print only the KEY
+sorted() to arrange in order
+values() used to print only the value
+set() used to identify repetited items in the list and builds a set from those items.
+key = name, language = value
+lens() to count
+input()
++= takes a string that was stored and adds the new string onto the end.
+int() function tells python to treat an input as a numerical value.
+modulo operator (%) divides one number by another number and returns the remainder.
+!=
+flag, acts as a signal to the program. 
+remove() to remove a specific value from a list. for example, say you have a list of pets with the value 'cat' repeated several times. 
+remove all instances of that value, you can run a while loop until 'cat' is no
+longer in the list,
+pop() remove a value in a list from the back.
+parameter, a piece of information the function needs to do its job.
+An argument is a piece of information that is passed from a function call to a function.
+positional arguments need to be in the same order the parameters were written.
+keyword arguments, where each argument consists of a variable name and a value; and lists and dictionaries of values.
+pyplot contains a number of functions that help generate charts and plots.
+Super() function is a special function that helps Python make connections between the parent and child. class. For example, super().__init__(name, age)
+In Python, a module is simply a file that contains Python code (functions, classes, variables, etc.). More like a Python file that can be imported and used elsewhere.
+If you’re creating a dictionary and want to keep track of the order in which key-value pairs
+are added, you can use the OrderedDict class from the collections module.
+rstrip() use to to remove the extra blank line.
+readlines() method takes each line from the file and stores it in a list.
+
+Date and Time Formatting Arguments
+The strptime() method can take a variety of arguments to determine how to interpret the date.
+Argument  Meaning
+%A        Weekday name, such as Monday
+%B        Month name, such as January
+%m        Month, as a number (01 to 12)
+%d        Day of the month, as a number (01 to 31)
+%Y        Four-digit year, such as 2015
+%y        Two-digit year, such as 15
+%H        Hour, in 24-hour format (00 to 23)
+%I        Hour, in 12-hour format (01 to 12)
+%p        am or pm
+%M        Minutes (00 to 59)
+%S        Seconds (00 to 61)
+
+
+application programming interface (API)
